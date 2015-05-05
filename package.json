@@ -4,6 +4,7 @@
   "description": "filter gulp plugins by the official blacklist",
   "main": "index.js",
   "dependencies": {
+    "request": "^2.55.0"
   },
   "devDependencies": {
     "istanbul": "^0.3.2",
@@ -21,7 +22,10 @@
     "url": "https://github.com/lisposter/blacklisted-plugins/issues"
   },
   "homepage": "https://github.com/lisposter/blacklisted-plugins",
-  "keywords": ["gulp", "blacklist"],
+  "keywords": [
+    "gulp",
+    "blacklist"
+  ],
   "author": "Leigh Zhu",
   "license": "MIT"
 }
