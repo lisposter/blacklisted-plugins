@@ -11,9 +11,16 @@ filter plugins by official blacklist
 $ npm install blacklisted-plugins
 ```
 
-## Example
-
 ## Usage
+
+```js
+const blp = require('blacklisted-plugins');
+
+blp('/path/to/project', function(err, result) {
+  console.log(result);
+  // ==> e.g { 'gulp-rimraf': 'use the `del` module' }
+});
+```
 
 ## License
 
