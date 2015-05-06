@@ -3,7 +3,11 @@
   "version": "0.1.0",
   "description": "filter gulp plugins by the official blacklist",
   "main": "index.js",
+  "bin": {
+    "blp": "bin/cli.js"
+  },
   "dependencies": {
+    "colors": "^1.1.0",
     "request": "^2.55.0"
   },
   "devDependencies": {
