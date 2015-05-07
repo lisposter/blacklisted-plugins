@@ -39,6 +39,8 @@ blp('/path/to/project', function(err, result) {
   // ==> e.g { 'gulp-rimraf': 'use the `del` module' }
 });
 ```
+in which, the result will be an object, it's key is the name of the 'blacklisted plugin', and the value is the reason why it was in the blacklist. 
+
 
 as CLI:
 
