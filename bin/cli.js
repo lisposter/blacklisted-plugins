@@ -2,8 +2,8 @@
 
 'use strict';
 
-var colors = require('colors');
-var blp = require('../index.js');
+const colors = require('colors');
+const blp = require('../index.js');
 
 var proj = process.argv[2] || process.cwd();
 

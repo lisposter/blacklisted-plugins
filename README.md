@@ -10,8 +10,15 @@ filter plugins by official blacklist
 ```bash
 $ npm install blacklisted-plugins
 ```
+or if you want to use it as a command, install it as global
+
+```bash
+$ npm install blacklisted-plugins -g
+```
 
 ## Usage
+
+as a module:
 
 ```js
 const blp = require('blacklisted-plugins');
@@ -20,6 +27,12 @@ blp('/path/to/project', function(err, result) {
   console.log(result);
   // ==> e.g { 'gulp-rimraf': 'use the `del` module' }
 });
+```
+
+as CLI:
+
+```bash
+$ blp /path/to/proj
 ```
 
 ## License
