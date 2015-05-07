@@ -48,6 +48,8 @@ as CLI:
 $ blp /path/to/proj
 ```
 
+> If you don't pass a path to it, blp will use `process.cwd()` instead.
+
 ## License
 
 MIT © [Leigh Zhu](#)
