@@ -1,5 +1,6 @@
 # blacklisted-plugins
 [![NPM version](https://img.shields.io/npm/v/blacklisted-plugins.svg?style=flat)](https://www.npmjs.org/package/blacklisted-plugins)
+
 Find out which plugins are in the [gulp's blacklist](https://github.com/gulpjs/plugins/blob/master/src/blackList.json).
 
 ## What is blacklist?
