@@ -1,6 +1,6 @@
 {
   "name": "blacklisted-plugins",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Find out which plugins are in the gulp's blacklist",
   "main": "index.js",
   "bin": {
